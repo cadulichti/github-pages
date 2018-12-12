@@ -1,37 +1,253 @@
-## Bemvindo
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Coffee - Shop</title>
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animated.css">
+        <script type="text/javascript" src="js/javascript.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">    
+    </head>
+    <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
-You can use the [editor on GitHub](https://github.com/cadulichti/github-pages.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cadulichti/github-pages.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    
+<body>
+    <div class="cabecalho">
+        <p>Av Ali Perto | Santos - SP Aberto Todos os Dias das 11:00 as 20:00</p>
+    </div>
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Comprar</a></li>
+                <li><a href="#">Máquinas</a></li>
+                <li><a href="#">Contato</a></li>
+                <li>|</li>
+                <li><a href="#">Blog</a></li>
+                <li><a class="item" href="#"><img src="img/trolley.png" alt="icone-carrinho"></a></li>
+            </ul>
+        </nav>
+        <a class="btn-logo" href="#"><span class="muda-cor">Coffee</span>Shop</a>
+        <nav class="header-menu">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="item" href="#">Home</a>
+                <a class="item" href="#">Comprar</a>
+                <a class="item" href="#">Máquinas</a>
+                <a class="item" href="#">Contato</a>
+                <a class="item" href="#"><img src="img/trolley.png" alt="icone-carrinho"></a>
+            </div>    
+            <div id="main">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            </nav>
+    <div class="introducao-mobile">
+        <h1>O Café do Brasil</h1>
+            <h2>Tomamos café para ver o dia melhor e mais agradável</h2>
+        </div>
+        <a class="btn-nossos-cafes" href="#">Nossos Cafés</a>
+    </header>
+    <section class="apaixonados-cafe">
+        <h2>Apaixonados por Café</h2>
+        <div class="teste">    
+        <div class="graos-especiais">
+                <img src="img/coffee-grain-mob.png">
+                <h3>Grãos Especiais</h3>
+                    <p>Nossos grãos são provenientes de pequenos produtores rigorosamente selecionados, que atendam os mais altos níveis de sustentabilidade e qualidade</p>
+            </div>
+        <div class="nossos-locais">
+                <img src="img/rice-mob.png">
+                <h3>Nossos Locais</h3>
+                    <p>Há décadas estamos presentes nos melhores supermercados, restaurantes, padarias e cafeterias de todo o Brasil.</p>
+            </div>
+        <div class="maquinas">
+                <img src="img/coffee-mob.png">
+                <h3>Máquinas expresso</h3>
+                    <p>Fornecemos máquinas de espresso profissionais e moinhos para nossos parceiros servirem Bravo Café em seus estabelecimentos.</p>
+            </div>
+        <div class="loja">
+                <img src="img/coffee-beans-mob.png">
+                <h3>Lojas Online</h3>
+                    <p>Confira nossa e-commerce e receba na sua casa nossos cafés e acessórios para sentir a experiência do Bravo Café.</p>
+            </div>
+            </div>
+        <a class="btn-galeria" href="#">Galeria</a>
+        </section>
+        <section class="cafes">
+            <h2>Prove você também o nosso café</h2>
+            <ul class="cafes-menu">
+                <li><a href="#">Café</a></li>
+                <li><a href="#">Kits</a></li>
+                <li><a href="#">Acessórios</a></li>
+            </ul>
+            <div class="teste2">
+            <div class="produtos">
+                <img src="img/gourmetcafe.png" alt="cafe gourmet">
+                <h3>Kit coffee + café moído</h3>
+                <p>Uma cafeteira inovadora + 500g de café soluvél</p>
+                <span class="valor">R$ 135,00</span>
+                <a  class="btn-comprar" href="#">Comprar</a>
+            </div>
+            <div class="produtos2">
+                <img src="img/tres.jpg" alt="cafe gourmet">
+                <h3>Kit coffee + café moído</h3>
+                <p>Uma cafeteira inovadora + 500g de café soluvél</p>
+                <span class="valor2">R$ 132,99</span>
+                <a  class="btn-comprar2" href="#">Comprar</a>
+            </div>
+            <div class="produtos3">
+                <img src="img/copo.jpg" alt="cafe gourmet">
+                <h3>Kit coffee + café moído</h3>
+                <p>Uma cafeteira inovadora + 500g de café soluvél</p>
+                <span class="valor3">R$ 115,00</span>
+                <a  class="btn-comprar3" href="#">Comprar</a>
+            </div>
+            <div class="produtos4">
+                <img src="img/teste-cafe.png" alt="cafe gourmet">
+                <h3>Kit coffee + café moído</h3>
+                <p>Uma cafeteira inovadora + 500g de café soluvél</p>
+                <span class="valor4">R$ 125,99</span>
+                <a  class="btn-comprar4" href="#">Comprar</a>
+            </div>
+        </div>
+            <a class="btn-produtos" href="#">Produtos</a>
+        </section>
+    <section class="escritorio">
+        <div class="escrit-bg">
+        <h2>Sirva nosso café</h2>
+        <p>Aliamos nossa tradição de 20 anos na produção de cafés com toda modernidade exigida pelo segmento. Desde a seleção de grãos até o último gole de uma xícara, nos preocupamos com todo processo para apreciar um bom café. Leve qualidade e sofisticação ao seu estabelecimento. Entre em contato com nossa equipe ou clique no botão .</p>
+        <a class="btn-escritorio" href="#">Para escritório</a>
+    </div>
+        <div class="img-woman">
+            <img src="img/Mask%20Group.png" alt="mulher servindo cafe">
+            </div>
+    </section>
+    <section class="empresa">
+        <div class="empresa-bg">
+            <h3>Mais de</h3>
+            <h2>500 Supermercados</h2>
+            <a class ="empresa-btn" href="#">Para empresa</a>
+            </div>
+      <img src="img/Mask%20Group-1.png" alt="grãos de café">
+      
+    </section>
+        <section class="servicos">
+            <h2>Serviços</h2>
+            <div class="teste3">
+            <div class="instalacao">
+                <span class="itens">1</span>
+                <h3>Instalação grátis</h3>
+                    <p>instalamos sua máquina sem custo nenhum</p>
+            </div>
+            <div class="manutencao">
+                <span class="itens">2</span>
+                <h3>Manutenção</h3>
+                    <p>Temos o nosso centro de reparo com profissionais qualificados</p>
+            </div>
+            <div class="maquinas-especiais">
+                <span class="itens">3</span>
+                <h3>Máquinas Especiais</h3>
+                    <p>Temos em estoque máquinas de ótimo custo beneficio</p>
+            </div>
+        </div>
+            <div class="teste4">    
+            <div class="instalacao">
+                <span class="itens">4</span>
+                <h3>Atendimento 24 Horas</h3>
+                    <p>instalamos sua máquina sem custo nenhum</p>
+            </div>
+            <div class="manutencao">
+                <span class="itens">5</span>
+                <h3>Reposição</h3>
+                    <p>Temos o nosso centro de reparo com profissionais qualificados</p>
+            </div>
+            <div class="maquinas-especiais">
+                <span class="itens">6</span>
+                <h3>Treinamentos</h3>
+                    <p>Temos em estoque máquinas de ótimo custo beneficio</p>
+            </div>
+        </div>
+    </section>
+    <section class="planos">
+        <h2>Nossos Planos</h2>
+        <div class="planos-bg">
+            <div class="light">
+                <h3>Light</h3>
+                <span>R$344,99</span>
+                <span>/mês</span>
+                <ul>
+                    <li>Máquinas de 1 grupo</li>
+                    <li>Moinho automático</li>
+                    <li>Sem manutenção</li>
+                </ul>
+                <a class="btn-contratar" href="#">Contratar</a>
+            </div>
+            <div class="gold">
+                <h3>Gold</h3>
+                <span>R$334,99</span>
+                <span>/mês</span>
+                <ul>
+                    <li>Máquinas de 2 grupos</li>
+                    <li>Moinho automático</li>
+                    <li>Sem manutenção</li>
+                </ul>
+                <a class="btn-contratar" href="#">Contratar</a>
+            </div>
+            <div class="premium">
+                <h3>Premium</h3>
+                <span>R$314,99</span>
+                    <span>/mês</span>
+                <ul>
+                    <li>Máquinas de 3 grupos</li>
+                    <li>Moinho automático</li>
+                    <li>24h manutenção</li>
+                </ul>
+            <a class="btn-contratar" href="#">Contratar</a>
+            </div>
+        <div class="pro">
+                <h3>Profissional</h3>
+                <span>R$304,99</span>                <span>/mês</span>
+                <ul>
+                    <li>Máquinas de 3 grupos</li>
+                    <li>Moinho automático</li>
+                    <li>24h manutenção</li>
+                </ul>
+                <a class="btn-contratar"    href="#">Contratar</a>
+            </div>
+        </div>
+    </section>
+    <footer class="fale-conosco">
+        <h3>Fale Conosco</h3>
+            <div class="end">
+                <img src="img/placeholder.png" alt="Maps">
+                    <p>Av Ali Perto, 900, Gonzaga, Santos - SP, 04548-111</p>
+            </div>
+            <div class="tel">
+                <img src="img/call.png" alt="contato">
+                    <p>+55 13 99668-8265</p>
+            </div>
+        <div class="email">
+                <img src="img/mail.png" alt="email">
+                    <p>contato@meusite.com.br</p>
+            </div>
+        
+        <div class="assine">
+            <p>Assine</p>
+            <input type="text">
+            <a class="btn-enviar" href="#">Enviar</a>
+        </div>
+    </footer>
+    </body>
+</html>

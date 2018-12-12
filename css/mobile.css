@@ -1,0 +1,428 @@
+@media screen and (max-width: 768px){
+
+/*COMEÇO BOTAO HAMBURGUER*/
+
+.sidenav {
+    height: 200%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding:10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+    margin: 15px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    color: #FFF;
+}
+    .item-linha{
+        display: none;
+    }
+/*FIM BOTAO HAMBURGUER*/
+    
+/*cabeçalho*/
+.cabecalho {
+    background: #F5DA9E;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho p {
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+/*fim cabeçalho*/
+/*header*/
+
+.menu {
+    display: none;
+}
+.header{
+    height: 400px;
+    background-image: url(../img/tela-mob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btn-logo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F5DA9E;
+    width: 110px;
+    height: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 250px;
+    position: absolute;
+    top: 72px;
+    font-size: 12px;
+}
+.muda-cor{
+    color: #F5DA9E;
+}
+.introducao-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.introducao-mobile h1 {
+    font-size: 32px;
+    font-family: 'quicksand',sans-serif;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 64px;
+    margin-bottom: 10px;
+    }
+.introducao-mobile h2 {
+    font-size: 14px;
+    font-family: 'quicksand',sans-serif;
+    color: #fff;
+    line-height: 15px;
+    width: 250px;
+    text-align: center;
+    
+}
+.introducao-mobile h2:after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.introducao-mobile h2:before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+}
+.btn-nossos-cafes{
+    width: 126px;
+    height: 40px;
+    background: #F5DA9E;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+}
+/*header fim*/
+/*apaixonados por cafe*/
+    .apaixonados-cafe {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .apaixonados-cafe h2{
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 32px;
+        margin-bottom: 64px;
+        letter-spacing: .1em;
+        font-family: 'quicksand',sans-serif;
+    }
+
+    .graos-especiais,.nossos-locais,.maquinas,.loja{
+        display: flex;
+        flex-wrap: wrap;;
+        flex-direction: column;
+        align-items: center;
+    }
+    .graos-especiais h3,.nossos-locais h3,.maquinas h3,.loja h3{
+        font-size: 18px;
+        font-family: 'quicksand',sans-serif;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    .graos-especiais p,.nossos-locais p,.maquinas p,.loja p{
+        font-size: 14px;
+        font-family: 'quicksand',sans-serif;
+        text-align: center;
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .btn-galeria{
+        width: 126px;
+        height: 40px;
+        background: #F5DA9E;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+    }    
+/*apaixonados por cafe fim*/
+
+/*cafes*/
+    .cafes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background: #222;
+        margin-top: 32px;
+    }
+    .cafes h2{
+        color: #fff;
+        font-size: 24px;
+        font-family: 'quicksand',sans-serif;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 64px;
+    }
+    .cafes-menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .cafes-menu li{
+        margin: 10px;
+        padding: 10px;
+    }
+    .cafes-menu li a {
+        color:#fff;
+        font-family: 'quicksand',sans-serif;
+    }
+    .produtos{
+        background: #fff;
+        width: 285px;
+        height: 541px;
+    }
+    .produtos h3{
+        font-size: 18px;
+        font-family: 'quicksand',sans-serif;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .produtos p{
+        font-size: 16px;
+        font-family: 'quicksand',sans-serif;
+        text-align: center;
+        width: 150px;
+        margin: 0 auto;
+    }
+    .valor {
+        font-size: 18px;
+        font-family: 'quicksand',sans-serif;
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn-comprar {
+        width: 126px;
+        height: 40px;
+        background: #F5DA9E;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        margin: 0 auto;
+    }
+    .btn-produtos {
+        width: 126px;
+        height: 40px;
+        border:2px solid #F5DA9E;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .empresa{
+        display: none;
+    }
+    .escritorio {
+        display: none;
+    }
+/*cafes fim*/
+
+/*serviços*/
+    .servicos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .servicos h2 {
+        font-size: 22px;
+        font-family: 'quicksand',sans-serif;
+        font-weight: bold;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .itens {
+        width:40px;
+        height: 40px;
+        background: #F5DA9E;
+        border-radius: 50%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-family: 'quicksand',sans-serif;
+        font-weight: bold;
+        color: #fff;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .instalacao,.manutencao,.maquinas-especiais {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .instalacao h3,.manutencao h3,.maquinas-especiais h3 {
+        font-size: 18px;
+        font-family: 'quicksand',sans-serif;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .instalacao p,.manutencao p,.maquinas-especiais p {
+        font-size: 16px;
+        font-family: 'quicksand',sans-serif;
+        text-align: center;
+        width: 300px;
+    
+    }
+    .teste4{
+        display: none;
+    }
+/*serviços fim*/
+
+/*fale conosco*/
+    
+    .fale-conosco {
+        height: 400px;
+        background: #222;
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .end,.tel,.email{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        margin: 10px;
+    }
+    .end p,.tel,.email {
+        font-size: 16px;
+        font-family: 'quicksand',sans-serif;
+        text-align: center;
+    }
+    .end p{
+        width: 320px;
+    }
+    .assine {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .assine input {
+        width: 300px;
+        height: 35px;
+    }
+    .btn-enviar {
+        width: 300px;
+        height: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border: 2px solid #fff;
+        margin-top: 10px;
+    }
+/*fale conosco fim*/
+    .produtos2,.produtos3,.produtos4{
+        display: none;
+    }
+    .planos {
+        display: none;
+    }
